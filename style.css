@@ -106,3 +106,8 @@ color: aliceblue;
     transform: rotate(-10deg);
     color: brown;
 }
+@media only screen and (max-width: 768px) {
+    #container{
+      width: 100%;
+    }
+  }s

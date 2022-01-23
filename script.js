@@ -44,7 +44,7 @@ clearInterval(interval)
 
 }
 lapp.onclick=function(){
-laptext.innerText=sec+":"+tens+"pora simaa";
+laptext.innerText=sec+":"+tens+"pora";
 
 }
 resetBtn.onclick=function(){
