@@ -1,0 +1,108 @@
+*{
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+}
+body{
+padding:0;
+margin: 0;
+}
+#container{
+    background-image: url('stop.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatc{
+    background-color: black;
+border-radius: 30px;
+border:5px solid white;
+width:300px;
+height:100px;
+margin-bottom: 20px;
+color: aliceblue;
+text-align: center;
+padding:30px 30px 10px 0px;
+box-shadow:10px 20px 20px rgb(0,0,20,10);
+}
+.stopwatc:hover{
+
+    transform: scale(2);
+}
+.buttons{
+
+    margin-top: 40px;
+    width:700px;
+    padding: 10px;
+    box-shadow:10px 20px 20px rgb(0,0,20,10);
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+.reset{
+    padding:18px;
+    text-align: center;
+    /*box-sizing: content-box;*/
+    box-shadow:10px 20px 20px rgb(0,0,20,10);
+    border-radius: 30px;
+   
+}
+.reset:hover{
+    color: cadetblue;
+    transform: skew(-10deg);
+    transition: 1s;
+
+}
+.stop{
+    padding: 18px;
+    box-shadow:10px 20px 20px rgb(0,0,20,10);
+    border-radius: 30px;
+}
+.stop:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+color:steelblue;
+}
+.lap{
+
+    padding: 18px;
+    box-shadow:10px 20px 20px rgb(0,0,20,10);
+    border-radius: 30px;
+    
+    
+}
+
+.lap:hover{
+    transform: rotate(-10deg);
+    color: brown;
+}
+.lpashow{
+
+margin-top:100px;
+color: black;
+font-size: 2em;
+opacity:0.6;
+background-color: black;
+border-radius: 20px;
+width: 200px;
+height:200px;
+}
+.jerry{
+
+color: aliceblue;
+
+}
+.lapping{
+    padding: 18px;
+    box-shadow:10px 20px 20px rgb(0,0,20,10);
+    border-radius: 30px;
+
+}
+.lapping:hover{
+    transform: rotate(-10deg);
+    color: brown;
+}
